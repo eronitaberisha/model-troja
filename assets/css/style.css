@@ -38,6 +38,7 @@ body{
 } */
 
 
+
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
@@ -214,11 +215,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0c391a;}
     transition: 0.3s linear;
 }
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#0c391a;border: 1px solid #0c391a;}
-/*.header-text-area*/
 
-/*-------------------------------------
-        4.  About
---------------------------------------*/
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
@@ -875,7 +872,24 @@ button:hover {
     margin: 20px;
   }
 
+  .home-title {
+    font-size: 37px;
+    font-weight: 600;
+    margin-top: 300px;
+    text-transform: none;
+    color: #132d1e;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center; /* Center the text for all devices by default */
+}
 
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768 pixels (typical for mobile devices) */
+    .home-title {
+        margin-left: 0; /* Remove left margin for mobile */
+    }
+}
 
 /* .gradient-banner {
     padding: 100px 0 170px;
