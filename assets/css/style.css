@@ -885,10 +885,27 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    /* Adjust styles for screens with a maximum width of 768 pixels (typical for mobile devices) */
     .home-title {
-        margin-left: 0; /* Remove left margin for mobile */
+        margin-left: 0;
     }
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        position:relative;
+        overflow:hidden;
+    }
+}
+
+.home-text{
+    font-size: 22px; 
+    font-weight: 400; 
+    text-transform: none; 
+    color:#132d1e; 
+    font-family: sans-serif;
+    letter-spacing: 1px; 
+    line-height: 1.5;
+    text-align: center; 
 }
 
 /* .gradient-banner {
